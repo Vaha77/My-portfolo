@@ -41,11 +41,7 @@ function ProCards() {
       description: "Real-time website using real-time API to fetch data from",
       link: "https://eager-morse-9c95b7.netlify.app",
     },
-    {
-      name: "Eager",
-      description: "Real-time website using real-time API to fetch data from",
-      link: "https://eager-morse-9c95b7.netlify.app",
-    },
+  
   ]);
 
   return (
