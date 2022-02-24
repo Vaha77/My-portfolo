@@ -1,5 +1,6 @@
 import React from "react";
-
+import ScrollIntoView from "react-scroll-into-view";
+import { FaChevronDown } from "react-icons/fa";
 function About() {
   return (
     <div>
@@ -16,6 +17,11 @@ function About() {
           programs.
         </p>
       </div>
+      <ScrollIntoView selector="#tech">
+        <div className="mx-auto p-20">
+          <FaChevronDown className="animate-bounce mx-auto text-3xl text-blue-500" />
+        </div>
+      </ScrollIntoView>
     </div>
   );
 }
