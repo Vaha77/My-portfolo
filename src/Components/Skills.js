@@ -77,6 +77,8 @@ function Skills() {
           <FaChevronDown className="animate-bounce mx-auto text-3xl text-blue-500" />
         </div>
       </ScrollIntoView>
+
+      
     </div>
   );
 }

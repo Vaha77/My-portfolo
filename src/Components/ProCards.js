@@ -2,54 +2,49 @@ import React, { useState } from "react";
 function ProCards() {
   const [project] = useState([
     {
-      name: "Eager",
+      name: "Questions",
       description: "Real-time website using real-time API to fetch data from",
       link: "https://eager-morse-9c95b7.netlify.app",
     },
     {
-      name: "Eager",
+      name: "Rendom",
       description: "Real-time website using real-time API to fetch data from",
-      link: "https://eager-morse-9c95b7.netlify.app",
+      link: "https://objective-banach-18834a.netlify.app/",
     },
     {
-      name: "Eager",
+      name: "Quiz",
       description: "Real-time website using real-time API to fetch data from",
-      link: "https://eager-morse-9c95b7.netlify.app",
+      link: "https://serene-ramanujan-712632.netlify.app/",
     },
     {
-      name: "Eager",
+      name: "Your Bag",
       description: "Real-time website using real-time API to fetch data from",
-      link: "https://eager-morse-9c95b7.netlify.app",
+      link: "https://elated-euler-bfe989.netlify.app/",
     },
     {
-      name: "Eager",
+      name: "Our Tours",
       description: "Real-time website using real-time API to fetch data from",
-      link: "https://eager-morse-9c95b7.netlify.app",
+      link: "https://thirsty-elion-775c4a.netlify.app/",
     },
     {
-      name: "Eager",
+      name: "Paginator",
       description: "Real-time website using real-time API to fetch data from",
-      link: "https://eager-morse-9c95b7.netlify.app",
+      link: "https://paginato.netlify.app/",
     },
     {
-      name: "Eager",
+      name: "Coctels",
       description: "Real-time website using real-time API to fetch data from",
-      link: "https://eager-morse-9c95b7.netlify.app",
+      link: "https://cocktels.netlify.app/",
     },
     {
-      name: "Eager",
+      name: "Submenu",
       description: "Real-time website using real-time API to fetch data from",
-      link: "https://eager-morse-9c95b7.netlify.app",
-    },
-    {
-      name: "news",
-      description: "Real-time website using real-time API to fetch data from",
-      link: "https://eager-morse-9c95b7.netlify.app",
+      link: "https://submenuu.netlify.app/",
     },
   ]);
 
   return (
-    <section id="proj" className="text-gray-700 body-font">
+    <section className="text-gray-700 body-font">
       <div className="container px-5 py-24 mx-auto">
         <p className="text-2xl text-black  md:text-4xl font-bold text-center my-10">
           Single Page Applications
