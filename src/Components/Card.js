@@ -1,5 +1,5 @@
 import React from "react";
-import profl from "../img/image.jpg";
+import profl from "../img/images.jpg";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
