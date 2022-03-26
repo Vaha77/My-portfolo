@@ -39,6 +39,8 @@ class Carousal extends React.Component {
         <br />
         <br />
         <br />
+        <br />
+        <br />
         <Carousel slides={slides} />
         {/* Carousal.Carousal because of unpkg in developement use npm import and use only {Carousal}*/}
       </div>
